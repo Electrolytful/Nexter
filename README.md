@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <img src="img/logo.png" alt="project logo" height=250px width=250px aspect-ratio="1 / 1" align="center" />
+  <img src="img/logo.png" alt="project logo" height=100px width=400px aspect-ratio="1 / 1" align="center" />
 </p>
 
 

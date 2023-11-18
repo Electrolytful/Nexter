@@ -1,5 +1,23 @@
 .features {
-    background-color: $color-grey-light-2;
-
     grid-column: center-start / center-end;
+
+    margin: 15rem 0;
+
+    display: grid;
+    grid-template-columns: subgrid;
+    gap: 6rem;
+
+    .feature {
+        &:nth-child(3n + 1) {
+            grid-column: 1 / span 2;
+        }
+
+        &:nth-child(3n + 2) {
+            grid-column: 4 / span 2;
+        }
+
+        &:nth-child(3n + 3) {
+            grid-column: 7 / span 2;
+        }
+    }
 }

@@ -29,12 +29,32 @@
     justify-self: start;
   }
 
-  //   &__text {
-  //   }
+  &__text {
+    font-size: 1.6rem;
+    color: $color-grey-light-2;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 1.5rem;
+    align-items: center;
+
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      background-color: currentColor;
+    }
+  }
 
   &__company-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     img {
       height: 2.5rem;
+      filter: brightness(70%);
     }
   }
 }

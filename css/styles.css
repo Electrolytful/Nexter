@@ -203,8 +203,25 @@ body {
   .header__btn {
     align-self: start;
     justify-self: start; }
-  .header__company-logos img {
-    height: 2.5rem; }
+  .header__text {
+    font-size: 1.6rem;
+    color: #aaa;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    gap: 1.5rem;
+    align-items: center; }
+    .header__text::before, .header__text::after {
+      content: "";
+      display: block;
+      height: 1px;
+      background-color: currentColor; }
+  .header__company-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header__company-logos img {
+      height: 2.5rem;
+      filter: brightness(70%); }
 
 .homes {
   grid-column: center-start / center-end;

@@ -18,6 +18,14 @@
   justify-content: center;
   row-gap: 1.5rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 5rem;
+  }
+
   &__logo {
     justify-self: center;
 
@@ -51,6 +59,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: $bp-small) {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 4rem;
+    }
 
     img {
       max-height: 2.5rem;

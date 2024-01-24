@@ -32,7 +32,7 @@
 ## About The Project
 Nexter is a fictional company that sells luxury homes from various different countries around the globe such as the USA and Germany. This project was undertaken as part of a Advanced CSS and Sass course to gain further understanding of CSS Grid, utilising it within a project.
 
-<b>Link to live demo: (project still under development)</b>
+<b>Link to live demo: https://nexter-erhandev.vercel.app</b>
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 

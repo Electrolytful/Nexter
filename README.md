@@ -30,7 +30,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+Nexter is a fictional company that sells luxury homes from various different countries around the globe such as the USA and Germany. This project was undertaken as part of a Advanced CSS and Sass course to gain further understanding of CSS Grid, utilising it within a project.
 
 <b>Link to live demo: (project still under development)</b>
 
@@ -42,9 +42,9 @@
 <!-- * [![React][React]][React-url] -->
 <!-- * [![React-router][React-router]][React-router-url] -->
 <!-- * [![JavaScript][JavaScript]][JavaScript-url] -->
-<!-- * ![CSS][CSS] -->
-<!-- * [![Sass][Sass]][Sass-url] -->
-<!-- * ![HTML5][HTML5] -->
+* ![CSS][CSS]
+* [![Sass][Sass]][Sass-url]
+* ![HTML5][HTML5]
 <!-- * [![Vite][Vite]][Vite-url] -->
 <!-- * [![Firebase][Firebase]][Firebase-url] -->
 
@@ -53,7 +53,17 @@
 
 <!-- Screenshots -->
 ## Screenshots
-
+<img src="screenshots/hero.png" alt="hero" width="1200"/>
+<img src="screenshots/features.png" alt="features" width="1200"/>
+<img src="screenshots/story.png" alt="story" width="1200"/>
+<img src="screenshots/homes.png" alt="homes" width="1200"/>
+<img src="screenshots/gallery.png" alt="gallery" width="1200"/>
+<img src="screenshots/hero-phone.jpg" alt="hero phone" width="300"/>
+<img src="screenshots/realtors-phone.jpg" alt="realtors phone" width="300"/>
+<img src="screenshots/features-phone.jpg" alt="features phone" width="300"/>
+<img src="screenshots/story-phone.jpg" alt="story phone" width="300"/>
+<img src="screenshots/homes-phone.jpg" alt="homes phone" width="300"/>
+<img src="screenshots/gallery-phone.jpg" alt="gallery phone" width="300"/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
